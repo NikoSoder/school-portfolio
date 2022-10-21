@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+  </head>
+  <body>
+    <h1>Snapshots</h1>
+    <main>
+      <ul>
+        <li>
+          <a
+            href="./images/js-gallery-fireworks.jpeg"
+            target="_blank"
+            title="A fireworks display"
+            onclick="showPic(this); return false;"
+            >Fireworks</a
+          >
+        </li>
+        <li>
+          <a
+            href="./images/js-gallery-coffee.jpeg"
+            target="_blank"
+            title="A cup of black coffee"
+            onclick="showPic(this); return false;"
+            >Coffee</a
+          >
+        </li>
+        <li>
+          <a
+            href="./images/js-gallery-rose.jpeg"
+            target="_blank"
+            title="A red, red rose"
+            onclick="showPic(this); return false;"
+            >Rose</a
+          >
+        </li>
+        <li>
+          <a
+            href="./images/js-gallery-bigben.jpeg"
+            target="_blank"
+            title="The famous clock"
+            onclick="showPic(this); return false;"
+            >Big Ben</a
+          >
+        </li>
+      </ul>
+
+      <figure>
+        <img
+          id="placeholder"
+          src="https://via.placeholder.com/400x300?text=My+Image+Gallery"
+          alt="My image gallery"
+        />
+      </figure>
+
+      <p id="description">Choose an image</p>
+    </main>
+    <script src="./out/script.js"></script>
+  </body>
+</html>

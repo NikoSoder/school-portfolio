@@ -1,0 +1,47 @@
+html {
+  font-size: 62, 5%;
+  font-family: "Asap Condensed", sans-serif;
+}
+
+.h1-style {
+  font-size: 3rem;
+}
+
+.h2-style {
+  font-size: 2rem;
+}
+
+.h3-style {
+  font-size: 1.5rem;
+}
+
+/* HEADER */
+
+header {
+  background-color: #fbe0d1;
+  margin-bottom: 2rem;
+}
+
+header div h1,
+h2 {
+  color: #69023b;
+  text-align: center;
+  background-color: #fbe0d1;
+  text-shadow: 11px 6px 8px rgba(0, 0, 0, 0.19);
+}
+
+.header-info {
+  padding-bottom: 1rem;
+}
+
+header figure {
+  display: block;
+  width: 120px;
+  height: 90px;
+}
+
+header figure img {
+  max-width: 100%;
+}
+
+/* MAIN CONTENT */
