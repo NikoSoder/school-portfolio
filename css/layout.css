@@ -44,7 +44,6 @@ h2 {
 header figure {
   display: block;
   width: 120px;
-  height: 90px;
 }
 
 header figure img {
@@ -57,11 +56,19 @@ header figure img {
   text-align: center;
 }
 
+.school-work div:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
 .list-container ul li a {
   font-size: 1.2rem;
   line-height: 1.6;
   text-decoration: none;
   color: #9c7c6b;
+}
+
+.list-container ul li a:hover {
+  color: #69023b;
 }
 
 .list-container h3 {
@@ -113,5 +120,54 @@ footer p {
 
   .school-work > * {
     flex: 1;
+  }
+
+  header {
+    flex-direction: row;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .header-info {
+    padding: 0;
+    margin-left: 2rem;
+  }
+
+  .school-work div:nth-child(1) {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .list-container {
+    animation: list-container-anim 1s 1s forwards;
+    opacity: 0;
+  }
+
+  .header-info {
+    animation: header-info-anim 2s forwards;
+    opacity: 0;
+  }
+}
+
+/* ANIMATIONS */
+
+@keyframes list-container-anim {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes header-info-anim {
+  0% {
+    opacity: 0;
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 1;
   }
 }
