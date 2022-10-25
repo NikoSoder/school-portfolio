@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ff9500;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  color: #00539f;
+  font-size: 5rem;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
