@@ -1,0 +1,40 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.main-ul {
+  font-size: 2rem;
+  padding-left: 4rem;
+}
+
+li {
+  margin-left: 1rem;
+  list-style: disc;
+}
+
+table {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+tr {
+  line-height: 1.6;
+}
+
+td {
+  padding-right: 1rem;
+}
