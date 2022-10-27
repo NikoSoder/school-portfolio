@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding: 2rem 4rem 2rem 4rem;
+  padding: 1rem 0 0 1rem;
 }
 
 h1,
@@ -21,13 +21,17 @@ section {
   padding-left: 4rem;
 }
 
+ul {
+  padding: 1rem 1rem 1rem 4rem;
+}
+
 li {
   margin-left: 1rem;
   list-style: disc;
 }
 
 table {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -37,4 +41,26 @@ tr {
 
 td {
   padding-right: 1rem;
+}
+
+.ul-style {
+  background-color: #d3d3d3;
+}
+
+.a-style {
+  text-decoration-style: dotted;
+  color: red;
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.table-first tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.table-second tr:nth-child(odd) {
+  background-color: #d3d3d3;
 }
