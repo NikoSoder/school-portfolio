@@ -149,6 +149,7 @@ footer p {
   }
   .fade-list {
     opacity: 0;
+    display: inline-block;
   }
   .fadein {
     animation: fadeIn 1s 1s;
@@ -173,7 +174,7 @@ footer p {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     opacity: 1;
